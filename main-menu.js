@@ -21,12 +21,6 @@ function setMainMenu (mainWindow) {
       ]
     },
     {
-      label: 'Show Deleloper Tools',
-      click() {
-        mainWindow.webContents.openDevTools();
-      }
-    },
-    {
       label: 'Say Hello',
       click() {
         showMessage(mainWindow);
@@ -60,7 +54,13 @@ function setMainMenu (mainWindow) {
         { role: 'paste' },
         { role: 'selectall' },
       ]
-    }
+    },
+    {
+      label: 'Show Deleloper Tools',
+      click() {
+        mainWindow.webContents.openDevTools();
+      }
+    },
   ];
 
   const menu = Menu.buildFromTemplate(template);
