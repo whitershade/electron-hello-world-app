@@ -1,9 +1,4 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
   color: green;
   text-align: center;
 }
