@@ -1,0 +1,6 @@
+{
+  "workingSetSize": 92188,
+  "peakWorkingSetSize": 101112,
+  "privateBytes": 39492,
+  "sharedBytes": 54204
+}

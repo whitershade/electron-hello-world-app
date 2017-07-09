@@ -8,6 +8,7 @@
   "author": "whiter shade",
   "license": "ISC",
   "devDependencies": {
+    "devtron": "^1.4.0",
     "electron": "^1.6.11"
   },
   "dependencies": {

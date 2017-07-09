@@ -39,6 +39,6 @@ function createBrowserWindow(browserWindowOpts) {
 
 app.on('ready', () => {
   createBrowserWindow();
-  ipcMain.on('create-window', (event, props) => createBrowserWindow(props));
+  // ipcMain.on('create-window', (event, props) => createBrowserWindow(props));
   ipcMain.on('get-window-count', () => sendWindowCount());
 });
