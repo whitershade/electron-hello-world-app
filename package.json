@@ -1,19 +1,22 @@
 {
   "name": "electron-hello-world-app",
+  "productName": "Hello World",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "electron index.js"
+    "start": "electron index.js",
+    "package": "build"
   },
   "author": "whiter shade",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
-    "electron": "^1.6.11"
-  },
-  "dependencies": {
     "electron": "^1.6.11",
-    "eslint-config-standard": "^10.2.1"
+    "electron-builder": "^19.13.0"
   },
-  "description": ""
+  "description": "hello world application",
+  "build": {
+    "appId": "com.whitershade.HelloWorld",
+    "files": "!build-assets${/*}"
+  }
 }
