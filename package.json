@@ -17,6 +17,7 @@
   "description": "hello world application",
   "build": {
     "appId": "com.whitershade.HelloWorld",
-    "files": "!build-assets${/*}"
+    "files": "!build-assets${/*}",
+    "forceCodeSigning": true
   }
 }
